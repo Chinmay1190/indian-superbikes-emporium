@@ -1,7 +1,7 @@
 
 export type Brand = 'Bajaj' | 'Hero' | 'Royal Enfield' | 'TVS' | 'Yamaha' | 'KTM' | 'Kawasaki' | 'Suzuki' | 'Honda' | 'Triumph' | 'Ducati' | 'BMW' | 'Harley-Davidson';
 
-export type Category = 'Sport' | 'Cruiser' | 'Adventure' | 'Naked' | 'Touring' | 'Off-Road' | 'Street' | 'Classic';
+export type Category = 'Sport' | 'Cruiser' | 'Adventure' | 'Naked' | 'Touring' | 'Off-Road' | 'Street' | 'Classic' | 'Cafe Racer';
 
 export interface ProductSpecification {
   engine?: string;

@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Category } from '@/types/product';
@@ -12,6 +11,7 @@ const categories: { [key in Category]?: string } = {
   'Cruiser': 'https://images.unsplash.com/photo-1625046438797-fa5e384f4ffa?q=80&w=1932',
   'Classic': 'https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?q=80&w=2070',
   'Touring': 'https://images.unsplash.com/photo-1582282373954-1cab55d683ea?q=80&w=1974',
+  'Cafe Racer': 'https://images.unsplash.com/photo-1558981852-426c6c22a060?q=80&w=2070',
 };
 
 const CategoryPreview = () => {
