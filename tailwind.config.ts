@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,16 +53,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				bikeRed: '#E31937',
+				bikeBlue: '#0A4DA6',
+				bikeBlack: '#121212',
+				bikeOrange: '#FF6B00',
+				bikeYellow: '#FFB800',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +80,20 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'shimmer': {
+					from: {
+						backgroundPosition: '0 0'
+					},
+					to: {
+						backgroundPosition: '-200% 0'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'shimmer': 'shimmer 2s linear infinite'
 			}
 		}
 	},
